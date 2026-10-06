@@ -1,0 +1,37 @@
+# Сборка
+build/
+build-*/
+cmake-build-*/
+
+# Генерируемые Qt файлы
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Настройки Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmlproject.user
+*.qbs.user
+CMakeLists.txt.user
+.qmake.stash
+.qmake.cache
+
+# Объектные файлы и библиотеки
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.a
+
+# Исполняемые файлы
+*.exe
+*.app
+
+# Прочее
+*.autosave
+*.log
+Thumbs.db
+.DS_Store
